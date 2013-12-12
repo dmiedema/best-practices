@@ -36,6 +36,12 @@ function strplodorev($s){
 
 ```
 
+## Helper Functions
+
+Don't use them. If possible, copy paste code around as much as possible. If necessary make is as specific as you can to its current context.
+
+## Variables
+
 Don't create unnecessary variables that you won't use more than once. Just because memory is cheap doesn't mean you get to abuse it, it's not a whore. Have some respect fot your users.
 
 
