@@ -65,6 +65,6 @@ function ct(&$a, $v) {return ($a)?($a[0]===$v)?TRUE:ct(array_slice($a,1),$v):FAL
 
 ## Variable Naming
 
-Memory and disk space isn't free, reduce, reuse, recycle.
+Use the Green Coding Standard. Memory and disk space isn't free, reduce, reuse, recycle.
 
 Bandwidth isn't cheap either. Think of your user. Quit being so selfish.
