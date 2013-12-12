@@ -81,7 +81,7 @@ function ct(&$a, $v) {return ($a)?($a[0]===$v)?TRUE:ct(array_slice($a,1),$v):FAL
 ## Commenting
                                                                                                                                                                                           
 ***ALWAYS*** use `/* */` style comments. It's easier to read for my IDE. It's best to just not comment anything though.                                                                   
-                                                                                                                                                                                          
+Be sure to create hyroglyphics using ascii art in your comment blocks so future civilizations can understand your code too.                                                                                                                                                                                          
 ## Variable Naming
                                                                                                                                                                                           
 Use the Green Coding Standard. Memory and disk space isn't free, reduce, reuse, recycle.                                                                                                  
