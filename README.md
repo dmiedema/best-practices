@@ -75,7 +75,7 @@ When possible, override them with shorter names. You're better than those yahoos
                                                                                                                                                                                           
 ```php
 /*check if a contains v*/
-function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:ct(array_slice($a,1),$v):FALSE;}                                                                                                      
+function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_slice($a,1),$v):FALSE;}                                                                                                      
                                                                                                                                                                                           
 ```
                                                                                                                                                                                           
