@@ -1,7 +1,8 @@
 Best-Practices                                                                                                                                                                            
 ==============                                                                                                                                                                            
                                                                                                                                                                                           
-Coding best practices. Because, let's face it. Your style of coding now is shit.                                                                                                          
+Coding best practices. Because despite all your efforts you still can't seem to get it right. Your style of coding now is shit.                                               
+
 ## Overall Style
 
 
