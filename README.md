@@ -110,11 +110,11 @@ Bandwidth isn't cheap either. Think of your user. Quit being so selfish.
                                                                                                                                                                                           
                                                                                                                                                                                           
                                                                                                                                                                                           
-                                                                                                                                                          ## Final Thoughts                                
-                                                                                                                                                                                          
-                                                   If you can write a functional program beyond
-                         the complexity of a 'hello world' using these standards, then
-                         you have truly a master programmer                                                                                                                                       
+## Final Thoughts                                
+
+If you can write a functional program beyond
+the complexity of a 'hello world' using these standards, then
+you have truly a master programmer                                                                                                                                       
                                                                                                                                                                                           
                                                                                                                                                                                           
                                                                                                                                                                                           
