@@ -15,10 +15,10 @@ code example
 
 ```php
 /* its 2013 */
-function suchImplodings($s){return implode("!\r\n" . ($GLOBALVERYWEB?"<br />{$s}":"{$s}") . "\t such wow")}
+function suchImplodings($s){return implode("!\r\n".($GLOBALVERYWEB?"<br />{$s}":"{$s}")."\t such wow")}
 
 /* juss talked to moses, dawg */
-function allYourImpkode($s){return implode("\r\n" . ($ALLYOURGLOBE || $ALLLOCAL)?"<br />{$s}":"{$s}")."\tbelong to us")}
+function allYourImpkode($s){return implode("\r\n".($ALLYOURGLOBE||$ALLLOCAL)?"<br />{$s}":"{$s}")."\tbelong to us")}
 ```
 
 ## Indentation                                                                                                                                                                            
@@ -45,7 +45,7 @@ Also, don't give your functions long names. Reading is hard, and we have to pay 
                                                                                                                                                                                           
 ### Good
 ```php
-function suchFUNKCHINstrplodorev_wow($o_O){return implode('!', array_reverse(array_slice(explode(';', str_replace(' ', '', trim(($o_O===NULL)?';':$o_O))))));}                                                  
+function suchFUNKCHINstrplodorev_wow($o_O){return implode('!',array_reverse(array_slice(explode(';',str_replace(' ','',trim(($o_O===NULL)?';':$o_O))))));}                                                  
                                                                                                                                                                                           
 ```                                                                                                                                                                                       
                                                                                                                                                                                           
@@ -75,7 +75,7 @@ When possible, override them with shorter names. You're better than those yahoos
                                                                                                                                                                                           
 ```php
 /*check if a contains v*/
-function ct(&$a, $v) {return ($a)?($a[0]===$v)?TRUE:ct(array_slice($a,1),$v):FALSE;}                                                                                                      
+function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:ct(array_slice($a,1),$v):FALSE;}                                                                                                      
                                                                                                                                                                                           
 ```
                                                                                                                                                                                           
