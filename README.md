@@ -114,7 +114,7 @@ Bandwidth isn't cheap either. Think of your user. Quit being so selfish.
 
 If you can write a functional program beyond
 the complexity of a 'hello world' using these standards, then
-you have truly a master programmer                                                                                                                                       
+you have truly the a whole master programmer                                                                                                                                       
                                                                                                                                                                                           
                                                                                                                                                                                           
                                                                                                                                                                                           
