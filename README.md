@@ -19,6 +19,8 @@ Every file should appear to be a square. How ever many lines you have going down
                                                                                                                                                                                           
 **ALL** functions should begin with `return`. Always. No Exceptions. Also, try to make functions do as much as possible.                                                                  
                                                                                                                                                                                           
+If you're using a language that doesn't support functions beginning with return, that language is shit and should not be used.                                                            
+                                                                                                                                                                                          
 This lets everyone know that you mean business in this function and it will be giving shit back.                                                                                          
                                                                                                                                                                                           
 Also, don't give your functions long names. Reading is hard, and we have to pay by the character around here. Disk space ain't cheap you know.                                            
