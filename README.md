@@ -7,6 +7,10 @@ Coding best practices. Because, let's face it. Your style of coding now is shit.
 
 * Don't put specific dates in your code, but use variables and other hints to current trending internet shitmemes so people can get an idea as to when this code was written.
 
+
+Example - Constant dogewow references will let people know "oh, about mid-late 2013, gocha".  'All your base' references will mean the code is written on stone tablets right before god gave moses his commandments
+
+
 ## Indentation                                                                                                                                                                            
                                                                                                                                                                                           
 No one really cares, just use whatever you like.                                                                                                                                          
