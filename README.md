@@ -68,7 +68,9 @@ function stringManipulationExample ($str) {
                                                                                                                                                                                           
 ## Helper Functions
                                                                                                                                                                                           
-Don't use them. If possible, copy paste code around as much as possible. If necessary make is as specific as you can to its current context.                                              
+Don't use them. Too many functions make your code harder to process and read. And reading is **hard**. If possible, copy paste code around as much as possible. If necessary make is as specific as you can to its current context.
+
+Ideally do not use them at all.
                                                                                                                                                                                           
 ## Variables                                                                                                                                                                              
                                                                                                                                                                                           
