@@ -133,7 +133,7 @@ function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_spl
 *Bad*
 ```php
 /*check if a contains v*/
-function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_slice($a,1),$v):FALSE;}                   
+function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_slice($a,1),$v):FALSE;}
 ```
 
 ## Commenting
