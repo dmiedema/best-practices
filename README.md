@@ -27,7 +27,7 @@ Also, don't give your functions long names. Reading is hard, and we have to pay 
                                                                                                                                                                                           
 ### Good
 ```php
-function strplodorev($s){return implode('!', array_reverse(array_slice(explode(';', str_replace(' ', '', trim(($s===NULL)?';':$s))))));}                                                  
+function suchFUNKCHINstrplodorev_wow($o_O){return implode('!', array_reverse(array_slice(explode(';', str_replace(' ', '', trim(($o_O===NULL)?';':$o_O))))));}                                                  
                                                                                                                                                                                           
 ```                                                                                                                                                                                       
                                                                                                                                                                                           
