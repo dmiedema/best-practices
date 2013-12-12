@@ -78,7 +78,31 @@ Don't create unnecessary variables that you won't use more than once. Just becau
                                                                                                                                                                                           
                                                                                                                                                                                           
 When possible, manipulate global variables and pass by reference.                                                                                                                         
-                                                                                                                                                                                          
+
+
+
+## Variable Names
+
+Before you start your project, calculate
+approximately how many different variables you're going to
+use.  Divide that number by 26.  Round up.  However many you
+get, that is the character length of your variable set.
+
+For example: if the number is 3, your first variable is `$aaa`
+
+The next is `$aab`
+
+Use an excel spreadsheet to keep track of your variables, and make sure to include it in the source code
+
+That way everyone knows exactly where `$axf` goes, vs `$asf`
+
+When your program blows up, it might tell you which variable it choked on, and then you don't have to guess where that is.                                                  
+
+**Note:** Virus scanners look for common hacker variables like `'tmpStr'`
+and `'strInput'`, using the variable spreadsheet will avoid your
+code getting flagged as a virus
+
+
 ## Classes                                                                                                                                                                                
 They're good for learning programming.
 
