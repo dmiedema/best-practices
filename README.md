@@ -25,9 +25,7 @@ Also, don't give your functions long names. Reading is hard, and we have to pay 
 
 ### Good
 ```php
-function strplodorev($s){
-  return implode('!', array_reverse(array_slice(explode(';', str_replace(' ', '', trim(($s===NULL)?';':$s))))));
-}
+function strplodorev($s){return implode('!', array_reverse(array_slice(explode(';', str_replace(' ', '', trim(($s===NULL)?';':$s))))));}
 
 ```
 
@@ -57,9 +55,7 @@ When possible, override them with shorter names. You're better than those yahoos
 
 ```php
 /*check if a contains v*/
-function cont(&$a, $v) {
-    return ($a)?($a[0]===$v)?TRUE:cont(array_slice($a,1),$v):FALSE;
-}
+function ct(&$a, $v) {return ($a)?($a[0]===$v)?TRUE:ct(array_slice($a,1),$v):FALSE;}
 
 ```
 
