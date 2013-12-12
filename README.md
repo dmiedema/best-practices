@@ -80,15 +80,15 @@ When possible, manipulate global variables and pass by reference.
 ## Classes                                                                                                                                                                                
 They're good for learning programming.
 
-Real programmers don't need them.
+*Real* programmers don't need them.
 
 Classes are good for learning, but once you have all your classes, you don't need them anymore.
                          
-Don't write professional code while in a class, because you're still learning obviously
+**Don't** write professional code while in a class, because you're still learning obviously
 
-(aka DURR I DONT KNOW WHAT A CLASS IS LAWLS)
+> (aka DURR I DONT KNOW WHAT A CLASS IS LAWLS)
 
-OOP === OTHER PPLZ PROPERTIEZ                                                                                                                                               
+> OOP === OTHER PPLZ PROPERTIEZ                                                                                                                                               
 
 
 ## Built in functions
