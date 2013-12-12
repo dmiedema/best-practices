@@ -50,7 +50,9 @@ This lets everyone know that you mean business in this function and it will be g
                                                                                                                                                                                           
 If you're using a language that doesn't support functions beginning with return, that language is shit and should not be used.                                                            
                                                                                                                                                                                           
-Also, don't give your functions long names. Reading is hard, and we have to pay by the character around here. Cloud Storage ain't cheap you know.                                            
+Also, don't give your functions long names. Reading is hard, and we have to pay by the character around here. Cloud Storage ain't cheap you know.
+
+Ideally, functions will obliterate the values passed to them when they're finished. This will help avoid memory leaks.
                                                                                                                                                                                           
 ### Good
 ```php
@@ -120,11 +122,13 @@ Classes are good for learning, but once you have all your classes, you don't nee
 ## Built in functions
                                                                                                                                                                                           
 When possible, override them with shorter names. You're better than those yahoos who wrote whatever language you're using, quit kidding yourself.                                         
-                                                                                                                                                                                          
+                                                                                                                        <!-- /*check if a contains v*/
+function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_slice($a,1),$v):FALSE;}                   -->
+
 ```php
-/*check if a contains v*/
-function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_slice($a,1),$v):FALSE;}                                                                                                      
-                                                                                                                                                                                          
+                                                                                  
+/*check if a contained v*/
+function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_splice($a,1),$v):FALSE;}                                                                                                                                                                                                              
 ```
                                                                                                                                                                                           
 ## Commenting
