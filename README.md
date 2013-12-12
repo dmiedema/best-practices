@@ -78,9 +78,19 @@ Don't create unnecessary variables that you won't use more than once. Just becau
 When possible, manipulate global variables and pass by reference.                                                                                                                         
                                                                                                                                                                                           
 ## Classes                                                                                                                                                                                
-                                                                                                                                                                                          
 They're good for learning programming.
-                                                                                                                                                                                          
+
+Real programmers don't need them.
+
+Classes are good for learning, but once you have all your classes, you don't need them anymore.
+                         
+Don't write professional code while in a class, because you're still learning obviously
+
+(aka DURR I DONT KNOW WHAT A CLASS IS LAWLS)
+
+OOP === OTHER PPLZ PROPERTIEZ                                                                                                                                               
+
+
 ## Built in functions
                                                                                                                                                                                           
 When possible, override them with shorter names. You're better than those yahoos who wrote whatever language you're using, quit kidding yourself.                                         
