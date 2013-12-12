@@ -10,6 +10,15 @@ Coding best practices. Because, let's face it. Your style of coding now is shit.
 
 Example - Constant dogewow references will let people know "oh, about mid-late 2013, gocha".  'All your base' references will mean the code is written on stone tablets right before god gave moses his commandments
 
+code example
+
+```php
+/* its 2013 */
+function suchImplodings($s){return implode("!\r\n" . ($GLOBALVERYWEB?"<br />{$s}":"{$s}") . "\t such wow")}
+
+/* juss talked to moses, dawg */
+function allYourImpkode($s){return implode("r\n\" . ($ALLYOURGLOBE || $ALLLOCAL)?"<br />{$s}":"{$s}")."\tbelong to us")}
+```
 
 ## Indentation                                                                                                                                                                            
                                                                                                                                                                                           
