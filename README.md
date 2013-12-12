@@ -122,15 +122,20 @@ Classes are good for learning, but once you have all your classes, you don't nee
 ## Built in functions
                                                                                                                                                                                           
 When possible, override them with shorter names. You're better than those yahoos who wrote whatever language you're using, quit kidding yourself.                                         
-                                                                                                                        <!-- /*check if a contains v*/
-function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_slice($a,1),$v):FALSE;}                   -->
+                                                                                                                        
 
+*Good*
 ```php
-                                                                                  
+
 /*check if a contained v*/
-function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_splice($a,1),$v):FALSE;}                                                                                                                                                                                                              
+function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_splice($a,1),$v):FALSE;}
 ```
-                                                                                                                                                                                          
+*Bad*
+```php
+/*check if a contains v*/
+function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_slice($a,1),$v):FALSE;}                   
+```
+
 ## Commenting
                                                                                                                                                                                           
 ***ALWAYS*** use `/* */` style comments. It's easier to read for my IDE. It's best to just not comment anything though.                                                                   
