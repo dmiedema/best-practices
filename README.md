@@ -17,7 +17,7 @@ code example
 function suchImplodings($s){return implode("!\r\n" . ($GLOBALVERYWEB?"<br />{$s}":"{$s}") . "\t such wow")}
 
 /* juss talked to moses, dawg */
-function allYourImpkode($s){return implode("r\n\" . ($ALLYOURGLOBE || $ALLLOCAL)?"<br />{$s}":"{$s}")."\tbelong to us")}
+function allYourImpkode($s){return implode("\r\n" . ($ALLYOURGLOBE || $ALLLOCAL)?"<br />{$s}":"{$s}")."\tbelong to us")}
 ```
 
 ## Indentation                                                                                                                                                                            
