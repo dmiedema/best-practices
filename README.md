@@ -30,7 +30,16 @@ No one really cares, just use whatever you like.
 Again, no one gives a shit. Just do whatever. If possible, mix in UNIX-style (`\n`) and Windows-style (`\r\n`)                                                                            
                                                                                                                                                                                           
 ## Trailing whitespace
-                                                                                                                                                                                          
+
+Nothing is more aggrivating to programmers 
+as when pressing the <down arrow> key the cursor 
+moves to the end of the line below, because that line isn't as 
+long as the one above it.  Put enough white space after every 
+line so when I move my cursor down, it goes down, not wherever 
+it wants to go.
+
+* Make sure empty 'white space' lines also include enough spaces to prevent 'cursor position hijacking'
+
 Every file should appear to be a square. How ever many lines you have going down better be the same on every line accross.                                                                
                                                                                                                                                                                           
 ## Functions
@@ -50,8 +59,11 @@ function suchFUNKCHINstrplodorev_wow($o_O){return implode('!',array_reverse(arra
 ```                                                                                                                                                                                       
                                                                                                                                                                                           
 ### Bad
-```                                                                                                                                                                                       
-                                                                                                                                                                                          
+```php                                                                                                                  
+function stringManipulationExample ($str) {
+  $strReturn = '';
+  $strReturn = str_replace(' ', '', $str);
+  /* fuck this garbage code. You get the picture. */
 ```                                                                                                                                                                                       
                                                                                                                                                                                           
 ## Helper Functions
