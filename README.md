@@ -47,12 +47,27 @@ Don't create unnecessary variables that you won't use more than once. Just becau
 
 When possible, manipulate global variables and pass by reference.
 
+## Classes
 
-### Commenting
+They're good for learning programming.
+
+## Built in functions
+
+When possible, override them with shorter names. You're better than those yahoos who wrote whatever language you're using, quit kidding yourself.
+
+```php
+/*check if a contains v*/
+function cont(&$a, $v) {
+    return ($a)?($a[0]===$v)?TRUE:cont(array_slice($a,1),$v):FALSE;
+}
+
+```
+
+## Commenting
 
 ***ALWAYS*** use `/* */` style comments. It's easier to read for my IDE. It's best to just not comment anything though.
 
-### Variable Naming
+## Variable Naming
 
 Memory and disk space isn't free, reduce, reuse, recycle.
 
