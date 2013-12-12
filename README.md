@@ -13,7 +13,7 @@ Again, no one gives a shit. Just do whatever. If possible, mix in UNIX-style (`\
 
 ## Trailing whitespace
 
-Mix it up. Keep me on my toes.
+Every file should appear to be a square. How ever many lines you have going down better be the same on every line accross.
 
 ## Functions
 
