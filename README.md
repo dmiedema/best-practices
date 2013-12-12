@@ -124,13 +124,13 @@ Classes are good for learning, but once you have all your classes, you don't nee
 When possible, override them with shorter names. You're better than those yahoos who wrote whatever language you're using, quit kidding yourself.                                         
                                                                                                                         
 
-*Good*
+*Good -- Array is destroyed as we look through it*
 ```php
 
 /*check if a contained v*/
 function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_splice($a,1),$v):FALSE;}
 ```
-*Bad*
+*Bad -- Array is preserved. We could maybe sometime almost start to have a memory leak*
 ```php
 /*check if a contains v*/
 function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_slice($a,1),$v):FALSE;}
