@@ -51,8 +51,6 @@ This lets everyone know that you mean business in this function and it will be g
 If you're using a language that doesn't support functions beginning with return, that language is shit and should not be used.                                                            
                                                                                                                                                                                           
 Also, don't give your functions long names. Reading is hard, and we have to pay by the character around here. Cloud Storage ain't cheap you know.
-
-Ideally, functions will obliterate the values passed to them when they're finished. This will help avoid memory leaks.
                                                                                                                                                                                           
 ### Good
 ```php
@@ -104,6 +102,12 @@ When your program blows up, it might tell you which variable it choked on, and t
 and `'strInput'`, using the variable spreadsheet will avoid your
 code getting flagged as a virus
 
+## Variable Naming
+                                                                                                                                                                                          
+Use the Green Coding Standard. Memory and disk space isn't free, reduce, reuse, recycle.                                                                                                  
+                                                                                                                                                                                          
+Bandwidth isn't cheap either. Think of your user. Quit being so selfish.
+
 
 ## Classes                                                                                                                                                                                
 They're good for learning programming.
@@ -121,7 +125,9 @@ Classes are good for learning, but once you have all your classes, you don't nee
 
 ## Built in functions
                                                                                                                                                                                           
-When possible, override them with shorter names. You're better than those yahoos who wrote whatever language you're using, quit kidding yourself.                                         
+When possible, override them with shorter names. You're better than those yahoos who wrote whatever language you're using, quit kidding yourself.
+
+Ideally, functions will obliterate the values passed to them when they're finished. This will help avoid memory leaks.
                                                                                                                         
 
 *Good -- Array is destroyed as we look through it*
@@ -139,12 +145,7 @@ function ct(&$a, $v){return ($a)?($a[0]===$v)?TRUE:($a[0]==$v)?TRUE:ct(array_sli
 ## Commenting
                                                                                                                                                                                           
 ***ALWAYS*** use `/* */` style comments. It's easier to read for my IDE. It's best to just not comment anything though.                                                                   
-Be sure to create heiroglyphics using ascii art in your comment blocks so future civilizations can understand your code too.                                                                                                                                                                                          
-## Variable Naming
-                                                                                                                                                                                          
-Use the Green Coding Standard. Memory and disk space isn't free, reduce, reuse, recycle.                                                                                                  
-                                                                                                                                                                                          
-Bandwidth isn't cheap either. Think of your user. Quit being so selfish.                                                                                                                  
+Be sure to create heiroglyphics using ascii art in your comment blocks so future civilizations can understand your code too.                                                                                                                                                                                         
                                                                                                                                                                                           
                                                                                                                                                                                           
                                                                                                                                                                                           
